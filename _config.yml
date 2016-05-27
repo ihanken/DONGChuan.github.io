@@ -13,10 +13,11 @@ location: Memphis, Tennessee
 company: Froghat, LLC
 company_url: http://froghat.github.io
 github_url: https://github.com/ihanken
-description: This is personal website of ihanken.
+description: Ian Hanken's Personl Github Page.
 favicon: favicon.png # Image must be in assets/images
 
 url: http://ihanken.github.io # the base hostname & protocol for your site
+repository: ihanken/contributions
 
 ## Gem
 gems:
@@ -82,7 +83,6 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_software_keywords: [Swift, C, C++, Java, Javascript, SPICE, MATLAB, LaTeX, SQL, PHP]
+skill_framework_keywords: [Xcode, Git, AWS, Parse, Eclipse]
+skill_operating_system_keywords: [Windows 7/8/10, iOS, OS X]

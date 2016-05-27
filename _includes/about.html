@@ -2,9 +2,9 @@
 
     <div class="col-md-8">
 
-        <h2>About me</h2>
+        <h2>About Me</h2>
 
-        <p>I am an undergraduate student of Electrical Engineering, Computer Engineering, and Computer Science at the University of Memphis. I work for a small software startup, Froghat, LLC.</p>
+        <p>I am an undergraduate student of Electrical Engineering, Computer Engineering, and Computer Science at the University of Memphis. I work for McVean Trading and Investments in Memphis, Tennessee and a small software startup, Froghat, LLC.</p>
 
         <h2>Contact</h2>
 
@@ -18,7 +18,7 @@
         {% if site.skill_software_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Software Engineer Keywords</h3>
+                <h3 class="panel-title">Languages and Software</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_software_keywords %}
@@ -28,39 +28,26 @@
         </div>
         {% endif %}
 
-        {% if site.skill_j2ee_keywords %}
+        {% if site.skill_framework_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">J2EE Developer Keywords</h3>
+                <h3 class="panel-title">IDEs and Frameworks</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_j2ee_keywords %}
+                {% for keyword in site.skill_framework_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
         </div>
         {% endif %}
 
-        {% if site.skill_mobile_app_keywords %}
+        {% if site.skill_operating_system_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Mobile Developer Keywords</h3>
+                <h3 class="panel-title">Operating Systems</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_mobile_app_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_web_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Web Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_web_keywords %}
+                {% for keyword in site.skill_operating_system_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
