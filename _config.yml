@@ -13,7 +13,7 @@ location: Memphis, Tennessee
 company: Froghat, LLC
 company_url: http://froghat.github.io
 github_url: https://github.com/ihanken
-description: Ian Hanken's Personal Github Page.
+description: Ian Hanken's Personal Github Page
 favicon: favicon.png # Image must be in assets/images
 
 url: http://ihanken.github.io # the base hostname & protocol for your site
@@ -83,6 +83,6 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Swift, C, C++, Java, Javascript, SPICE, MATLAB, LaTeX, SQL, PHP]
-skill_framework_keywords: [Xcode, Git, AWS, Parse, Eclipse]
-skill_operating_system_keywords: [Windows 7/8/10, iOS, OS X]
+skill_software_keywords: [Swift, C/C++, Java, Javascript, Objective-C, SQL, PHP, Ruby, LaTeX]
+skill_framework_keywords: [Xcode, Git, Amazon Web Services, Cocoapods, MySQL]
+skill_operating_system_keywords: [Windows, iOS, macOS, "*nix Systems"]
