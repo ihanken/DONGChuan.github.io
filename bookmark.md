@@ -19,6 +19,13 @@ menu: Bookmark
 ## Machine Learning
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com) - An Explanation of Deep Learning and Neural Networks
 
+## Ruby
+- [Documenting Ruby](http://ruby-doc.org/) - A large Ruby documentation repository.
+- [Ruby Documentation](http://www.ruby-lang.org/en/documentation/) - The official Ruby documentation.
+
+## Ruby on Rails
+- [Rails for Zombies](http://railsforzombies.org/) - An interactive tutorial for learning Rails.
+
 ## Swift
 - [Swift Language Guide](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) - The official Swift 2.2 Language Guide from Apple
 - [Swift Syntax Cheat Codes](https://medium.com/swift-programming/swift-syntax-cheat-codes-9ce4ab4bc82e#.bsp6xsywr) - Great Swift Syntax Shortcuts

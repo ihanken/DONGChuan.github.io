@@ -4,7 +4,11 @@
   background-repeat: no-repeat;
 }
 .flag-icon {
-  
+  background-size: contain;
+  background-position: 50%;
+  position: relative;
+  width: 1.33333333em;
+  line-height: 1em;
 }
 .flag-icon:before {
   content: "\00a0";
