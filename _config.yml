@@ -17,7 +17,8 @@ description: Ian Hanken's Personal Github Page
 favicon: favicon.png # Image must be in assets/images
 
 url: http://ihanken.github.io # the base hostname & protocol for your site
-repository: ihanken
+repository: froghat/repositories
+repository: ihanken/repositories
 
 ## Gem
 gems:
@@ -26,6 +27,7 @@ gems:
   - rouge
   - kramdown
   - jekyll-github-metadata
+  - hash-joiner
 
 # Build settings
 markdown: kramdown
@@ -81,8 +83,12 @@ analytics :
   google :
       tracking_id : 'UA-72165600-1'
 
+jekyll_get:
+  - data: repos
+    json: 'https://api.github.com/search/repositories?q=%20+fork:false+user:ihanken+user:froghat'
+
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Swift, C/C++, Java, Javascript, Objective-C, SQL, PHP, Ruby, LaTeX]
-skill_framework_keywords: [Xcode, Git, Amazon Web Services, Cocoapods, MySQL]
+skill_software_keywords: [Swift, C/C++, Java, Ruby, Python, Javascript, Objective-C, SQL, PHP, LaTeX]
+skill_framework_keywords: [Xcode, Git, Amazon Web Services, Cocoapods, Ruby on Rails, MySQL]
 skill_operating_system_keywords: [Windows, iOS, macOS, "*nix Systems"]
