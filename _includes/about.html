@@ -7,7 +7,7 @@
         <p>I am an undergraduate student of Computer Science at the University of Memphis,
             and I have a partially completed degree in Computer Engineering and Electrical Engineering,
             which I plan on completing after my Computer Science degree.<br /><br />
-            
+
             I work for McVean Trading and Investments in Memphis, Tennessee as a Trade Operations Specialist, and I develop for a small software startup, Froghat LLC.</p>
 
         <h2>Contact</h2>
@@ -21,26 +21,39 @@
 
         <h2>Skill Keywords</h2>
 
-        {% if site.skill_software_keywords %}
+        {% if site.skill_languages_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Languages and Software</h3>
+                <h3 class="panel-title">Languages</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_software_keywords %}
+                {% for keyword in site.skill_languages_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
         </div>
         {% endif %}
 
-        {% if site.skill_framework_keywords %}
+        {% if site.skill_tools_and_frameworks_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">IDEs and Frameworks</h3>
+                <h3 class="panel-title">Tools and Frameworks</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_framework_keywords %}
+                {% for keyword in site.skill_tools_and_frameworks_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.skill_technologies_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Technologies</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_technologies_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
