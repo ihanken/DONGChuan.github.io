@@ -26,6 +26,15 @@ menu: Bookmark
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) - GitHub Practical Tips
 - [Git Quick Reference](http://jonas.nitro.dk/git/quick-reference.html) - Git Quick Reference
 
+## iOS
+
+### [CocoaPods](https://github.com/CocoaPods/CocoaPods) - An awesome tool for installing Cocoa dependencies
+- [Amazon Web Services iOS SDK](https://github.com/aws/aws-sdk-ios) - AWS speaks for itself, but the iOS SDK can be installed with CocoaPods.
+- [Eureka](https://github.com/xmartlabs/Eureka) - A fantastic iOS form creation library.
+- [Onboard](https://github.com/mamaral/Onboard) - A simple library for creating iOS Onboarding flows.
+- [SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController) - A library for creating slide out iOS menus.
+- [SwiftCop](https://github.com/andresinaka/SwiftCop) - A Swift library for adding data validations to iOS fields.
+
 ## Machine Learning
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com) - An Explanation of Deep Learning and Neural Networks
 
