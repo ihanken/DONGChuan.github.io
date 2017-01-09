@@ -28,7 +28,7 @@ menu: Bookmark
 
 ## iOS
 
-### [CocoaPods](https://github.com/CocoaPods/CocoaPods) - An awesome tool for installing Cocoa dependencies
+### [CocoaPods](https://github.com/CocoaPods/CocoaPods)
 - [Amazon Web Services iOS SDK](https://github.com/aws/aws-sdk-ios) - AWS speaks for itself, but the iOS SDK can be installed with CocoaPods.
 - [Eureka](https://github.com/xmartlabs/Eureka) - A fantastic iOS form creation library.
 - [Onboard](https://github.com/mamaral/Onboard) - A simple library for creating iOS Onboarding flows.
