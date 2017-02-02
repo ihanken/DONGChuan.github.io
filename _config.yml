@@ -91,6 +91,6 @@ jekyll_get:
 
 # For about.html. Fell free to create your own!
 skill_languages_keywords: [C/C++, Swift, Python, Ruby, Java, Javascript, Objective-C, SQL, PHP, LaTeX]
-skill_tools_and_frameworks_keywords: [Xcode, Atom, IntelliJ, CLion, Agile, Microservices, REST, MVC]
-skill_technologies_keywords: [Git, Amazon Web Services, Docker, Travis-CI, Cocoapods, Ruby on Rails, MySQL]
+skill_tools_and_frameworks_keywords: [Xcode, Cocoapods, Fastlane, IntelliJ, CLion, Agile, Microservices, REST, MVC]
+skill_technologies_keywords: [Git, Amazon Web Services, Docker, Travis-CI, noSQL, Ruby on Rails, MySQL]
 skill_operating_system_keywords: [Windows, iOS, macOS, "*nix Systems"]
